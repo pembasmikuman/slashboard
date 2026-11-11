@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "slashboard",
+	"version": "${version}",
+	"name": "Slashboard",
+	"description": "Press a key, pick a command, fill in the values, run it. No more typing slash commands.",
+	"authors": ["Shazwan"],
+	"license": "MIT",
+	"icon": "assets/slashboard/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["my.shzwn.slashboard.SlashboardClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": ">=0.164.0"
+	}
+}
